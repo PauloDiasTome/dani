@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#140d10">
+  <meta name="description" content="Danielle Nail Designer — alongamento em molde F1, esmaltação, banho de gel e manutenção. Agende pelo WhatsApp.">
+  <title>Danielle | Nail Designer</title>
+  <link rel="icon" href="img/logo-mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra fixa -->
+  <nav class="nav" id="nav">
+    <div class="container nav__inner">
+      <a class="logo" href="#" aria-label="Danielle Nail Designer">
+        <svg class="logo__mark" viewBox="0 0 72 72" width="40" height="40" aria-hidden="true">
+          <defs>
+            <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ff8fb8"/>
+              <stop offset="1" stop-color="#e8457d"/>
+            </linearGradient>
+          </defs>
+          <g transform="translate(36 36)">
+            <circle r="31" fill="none" stroke="url(#lg)" stroke-width="1.8"/>
+            <text x="-1" y="13" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-style="italic" font-weight="600" font-size="46" fill="currentColor">D</text>
+            <path d="M22 14c0 4.5 5 7.5 5 12a5 5 0 0 1-10 0c0-4.5 5-7.5 5-12z" fill="url(#lg)"/>
+          </g>
+        </svg>
+        <span class="logo__name">Danielle</span>
+      </a>
+      <a class="nav__link" href="#servicos">Valores</a>
+    </div>
+  </nav>
+
+  <!-- Capa -->
+  <header class="hero">
+    <img class="hero__bg" src="img/hero.jpg" alt="" fetchpriority="high">
+    <div class="hero__overlay"></div>
+    <div class="hero__grain"></div>
+
+    <div class="hero__content container">
+      <p class="hero__eyebrow reveal-in" style="--d:.1s">Nail Designer</p>
+      <h1 class="reveal-in" style="--d:.25s">Unhas que<br><em>falam por você</em></h1>
+      <p class="hero__text reveal-in" style="--d:.4s">Alongamento, esmaltação e banho de gel com acabamento impecável. Hora marcada, sem espera.</p>
+      <a class="btn btn--primary reveal-in" style="--d:.55s" href="https://wa.me/5543996637577?text=Oi%20Danielle!%20Quero%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%85" target="_blank" rel="noopener">
+        <span>Agendar horário</span>
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+
+    <div class="hero__scroll reveal-in" style="--d:.9s" aria-hidden="true"><span></span></div>
+  </header>
+
+  <!-- Faixa animada -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Alongamento</span><i></i><span>Esmaltação</span><i></i><span>Banho de gel</span><i></i><span>Manutenção</span><i></i><span>Nail art</span><i></i>
+      <span>Alongamento</span><i></i><span>Esmaltação</span><i></i><span>Banho de gel</span><i></i><span>Manutenção</span><i></i><span>Nail art</span><i></i>
+    </div>
+  </div>
+
+  <main>
+    <!-- Serviços -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <p class="eyebrow reveal">Serviços</p>
+        <h2 class="section__title reveal">Valores</h2>
+        <p class="section__hint reveal">Toque em um serviço para ver o que está incluso.</p>
+
+        <ul class="menu">
+          <li class="menu__item reveal" role="button" tabindex="0" aria-expanded="false">
+            <div class="menu__body">
+              <div class="menu__head">
+                <h3>Alongamento em molde F1</h3>
+                <span class="menu__price">R$ 89</span>
+              </div>
+              <p>Unhas mais longas, firmes e naturais.</p>
+              <span class="menu__meta">3h30</span>
+              <div class="menu__details">
+                <div>
+                  <ul>
+                    <li>Higienização das mãos e unhas</li>
+                    <li>Preparo e cutilagem</li>
+                    <li>Aplicação do molde F1</li>
+                    <li>Construção da unha em gel</li>
+                    <li>Lixamento e formato (amêndoa, quadrada ou bailarina)</li>
+                    <li>Esmaltação em gel na cor que você escolher</li>
+                    <li>Finalização com óleo de cutícula</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <svg class="menu__chev" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </li>
+
+          <li class="menu__item menu__item--featured reveal" role="button" tabindex="0" aria-expanded="false">
+            <div class="menu__body">
+              <div class="menu__head">
+                <h3>Esmaltação</h3>
+                <span class="menu__price">R$ 55</span>
+              </div>
+              <p>Cutilagem e esmalte com acabamento perfeito.</p>
+              <span class="menu__meta">1h30</span>
+              <small class="menu__badge">Mais pedido</small>
+              <div class="menu__details">
+                <div>
+                  <ul>
+                    <li>Higienização das mãos e unhas</li>
+                    <li>Remoção do esmalte antigo</li>
+                    <li>Cutilagem completa</li>
+                    <li>Lixamento e formato</li>
+                    <li>Base, duas camadas de cor e extra brilho</li>
+                    <li>Finalização com óleo de cutícula</li>
+                  </ul>
+                  <span class="menu__time">Com decoração: + R$ 10</span>
+                </div>
+              </div>
+            </div>
+            <svg class="menu__chev" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </li>
+
+          <li class="menu__item reveal" role="button" tabindex="0" aria-expanded="false">
+            <div class="menu__body">
+              <div class="menu__head">
+                <h3>Banho de gel</h3>
+                <span class="menu__price">R$ 55</span>
+              </div>
+              <p>Camada de gel que fortalece e dá brilho por mais tempo.</p>
+              <span class="menu__meta">1h30</span>
+              <div class="menu__details">
+                <div>
+                  <ul>
+                    <li>Higienização das mãos e unhas</li>
+                    <li>Cutilagem e preparo da unha natural</li>
+                    <li>Aplicação da camada de gel</li>
+                    <li>Secagem em cabine LED</li>
+                    <li>Lixamento e formato</li>
+                    <li>Esmaltação em gel</li>
+                    <li>Finalização com óleo de cutícula</li>
+                  </ul>
+                  <span class="menu__time">Com decoração: + R$ 10</span>
+                </div>
+              </div>
+            </div>
+            <svg class="menu__chev" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </li>
+
+          <li class="menu__item reveal" role="button" tabindex="0" aria-expanded="false">
+            <div class="menu__body">
+              <div class="menu__head">
+                <h3>Manutenção</h3>
+                <span class="menu__price">R$ 70</span>
+              </div>
+              <p>Reposição e reparo para manter tudo impecável.</p>
+              <span class="menu__meta">2h30</span>
+              <div class="menu__details">
+                <div>
+                  <ul>
+                    <li>Higienização das mãos e unhas</li>
+                    <li>Remoção do esmalte e do crescimento</li>
+                    <li>Cutilagem</li>
+                    <li>Reposição do gel na área que cresceu</li>
+                    <li>Ajuste de formato e lixamento</li>
+                    <li>Nova esmaltação em gel</li>
+                    <li>Finalização com óleo de cutícula</li>
+                  </ul>
+                  <span class="menu__time">Indicada a cada 15 a 20 dias</span>
+                </div>
+              </div>
+            </div>
+            <svg class="menu__chev" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="section section--dark">
+      <div class="container">
+        <ul class="perks">
+          <li class="reveal">
+            <strong>Higiene</strong>
+            <span>Material esterilizado a cada atendimento</span>
+          </li>
+          <li class="reveal" style="--d:.1s">
+            <strong>Pontualidade</strong>
+            <span>Hora marcada, sem fila e sem espera</span>
+          </li>
+          <li class="reveal" style="--d:.2s">
+            <strong>Estilo</strong>
+            <span>Cores, formatos e nail art do seu jeito</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Chamada final -->
+    <section class="section cta" id="contato">
+      <div class="cta__glow" aria-hidden="true"></div>
+      <div class="container">
+        <h2 class="reveal">Vamos marcar?</h2>
+        <p class="reveal">Chama no WhatsApp e escolhe o melhor horário pra você.</p>
+        <a class="btn btn--primary reveal" href="https://wa.me/5543996637577?text=Oi%20Danielle!%20Quero%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%85" target="_blank" rel="noopener">
+          <span>Falar com a Danielle</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <img class="footer__logo" src="img/logo.svg" alt="Danielle Nail Designer" width="180" height="36">
+      <span>Danielle Nail Designer</span>
+    </div>
+  </footer>
+
+  <!-- Botão fixo (celular) -->
+  <a class="fab" href="https://wa.me/5543996637577?text=Oi%20Danielle!%20Quero%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%85" target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 .1 5.3.1 11.9c0 2.1.6 4.1 1.6 5.9L0 24l6.4-1.7a11.9 11.9 0 0 0 5.6 1.4c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.3zM12 21.7a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.8 1 1-3.7-.2-.4A9.8 9.8 0 0 1 2.1 11.9C2.1 6.5 6.5 2.1 12 2.1c2.6 0 5.1 1 6.9 2.9a9.7 9.7 0 0 1 2.9 6.9c0 5.4-4.4 9.8-9.8 9.8zm5.4-7.3c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.4.2-.7.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4s-1 1-1 2.4 1 2.8 1.2 3 2 3.1 4.9 4.3c1.8.8 2.5.8 3.4.7.6-.1 1.8-.7 2-1.4s.3-1.3.2-1.4-.3-.2-.6-.3z"/></svg>
+    Agendar pelo WhatsApp
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
