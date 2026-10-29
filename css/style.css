@@ -362,6 +362,9 @@
     display: block;
     margin-top: 16px;
     padding-bottom: 4px;
+  }
+  .menu__time + .menu__time { margin-top: 4px; }
+  .menu__time {
     font-size: .92rem;
     font-weight: 600;
     color: var(--rosa);
